@@ -1,0 +1,6 @@
+? view 的layoutParams给谁用的
+:查看LinearLayout的源码，
+   public static int getChildMeasureSpec(int spec, int padding, int childDimension) {}
+    measureChild*
+  是给parent view使用的。
+
